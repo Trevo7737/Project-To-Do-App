@@ -51,6 +51,7 @@ export default function App() {
                 placeholder="Add a new todo"
                 value={text}
                 onChange={(e) => setText(e.target.value)}
+                onClick={(e) => setText(e.key("Enter"))}
               />
               <button
                 onClick={addTodo}
