@@ -37,9 +37,9 @@ export default function App() {
 
   return (
     <div className="grid grid-cols-5 grid-rows-5 gap-4 w-full h-screen">
-      <div className="col-span-5 row-span-5">
-        <div className=" w-full h-[20%] my-auto  flex justify-center items-center ">
-          <h1 className="text-[50px] text-teal-400 font-bold items-center w-[25%] shadow-xl/20 rounded-4xl  px-8 py-8  flex justify-center font-sans uppercase ">
+      <div className="col-span-5 row-span-5 ">
+        <div className=" w-full h-[20%] my-4  flex justify-center items-center ">
+          <h1 className="text-3xl text-teal-400 font-bold items-center w-[25%] shadow-xl/20 rounded-4xl  px-8 py-8  flex justify-center font-sans uppercase ">
             To do app
           </h1>
         </div>
